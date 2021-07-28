@@ -1,23 +1,16 @@
 # ubuntu-dev
+![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721/ubuntu-dev)
+![Docker Stars](https://img.shields.io/docker/stars/forumi0721/ubuntu-dev)
 
-#### [ubuntu-x64-dev](https://hub.docker.com/r/forumi0721ubuntux64/ubuntu-x64-dev/)
-![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/forumi0721ubuntux64/ubuntu-x64-dev/latest)
-![Docker Image Size (tag)](https://img.shields.io/docker/image-size/forumi0721ubuntux64/ubuntu-x64-dev/latest)
-![MicroBadger Layers (tag)](https://img.shields.io/microbadger/layers/forumi0721ubuntux64/ubuntu-x64-dev/latest)
-![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721ubuntux64/ubuntu-x64-dev)
-![Docker Stars](https://img.shields.io/docker/stars/forumi0721ubuntux64/ubuntu-x64-dev)
-#### [ubuntu-aarch64-dev](https://hub.docker.com/r/forumi0721ubuntuaarch64/ubuntu-aarch64-dev/)
-![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/forumi0721ubuntuaarch64/ubuntu-aarch64-dev/latest)
-![Docker Image Size (tag)](https://img.shields.io/docker/image-size/forumi0721ubuntuaarch64/ubuntu-aarch64-dev/latest)
-![MicroBadger Layers (tag)](https://img.shields.io/microbadger/layers/forumi0721ubuntuaarch64/ubuntu-aarch64-dev/latest)
-![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721ubuntuaarch64/ubuntu-aarch64-dev)
-![Docker Stars](https://img.shields.io/docker/stars/forumi0721ubuntuaarch64/ubuntu-aarch64-dev)
-#### [ubuntu-armhf-dev](https://hub.docker.com/r/forumi0721ubuntuarmhf/ubuntu-armhf-dev/)
-![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/forumi0721ubuntuarmhf/ubuntu-armhf-dev/latest)
-![Docker Image Size (tag)](https://img.shields.io/docker/image-size/forumi0721ubuntuarmhf/ubuntu-armhf-dev/latest)
-![MicroBadger Layers (tag)](https://img.shields.io/microbadger/layers/forumi0721ubuntuarmhf/ubuntu-armhf-dev/latest)
-![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721ubuntuarmhf/ubuntu-armhf-dev)
-![Docker Stars](https://img.shields.io/docker/stars/forumi0721ubuntuarmhf/ubuntu-armhf-dev)
+
+
+----------------------------------------
+### x64
+![Docker Image Version](https://img.shields.io/docker/v/forumi0721/ubuntu-dev/latest)
+![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/ubuntu-dev/latest)
+### aarch64
+![Docker Image Version](https://img.shields.io/docker/v/forumi0721/ubuntu-dev/aarch64)
+![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/ubuntu-dev/aarch64)
 
 
 
@@ -25,7 +18,7 @@
 #### Description
 
 * Distribution : [Ubuntu](https://www.ubuntu.com/)
-* Architecture : x64,aarch64,armhf
+* Architecture : x64,aarch64
 * Appplication : -
     - Development environment
 
@@ -39,7 +32,7 @@ docker run -i -t --rm \
            -e RUN_USER_NAME=<user_name> \
            -e RUN_USER_UID=<user_uid> \
            -e RUN_USER_GID=<user_gid> \
-           forumi0721ubuntu[ARCH]/ubuntu-[ARCH]-dev:latest
+           forumi0721/ubuntu-dev:[ARCH_TAG]
 ```
 
 
