@@ -6,10 +6,8 @@
 
 ----------------------------------------
 ### x64
-![Docker Image Version](https://img.shields.io/docker/v/forumi0721/ubuntu-dev/latest)
-![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/ubuntu-dev/latest)
+![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/ubuntu-dev/x64)
 ### aarch64
-![Docker Image Version](https://img.shields.io/docker/v/forumi0721/ubuntu-dev/aarch64)
 ![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/ubuntu-dev/aarch64)
 
 
