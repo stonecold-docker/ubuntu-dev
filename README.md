@@ -5,10 +5,10 @@
 
 
 ----------------------------------------
-### x64
-![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/ubuntu-dev/x64)
-### aarch64
-![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/ubuntu-dev/aarch64)
+### amd64
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/forumi0721/ubuntu-dev/latest?arch=amd64)
+### arm64
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/forumi0721/ubuntu-dev/latest?arch=arm64)
 
 
 
@@ -16,8 +16,8 @@
 #### Description
 
 * Distribution : [Ubuntu](https://www.ubuntu.com/)
-* Architecture : x64,aarch64
-* Appplication : -
+* Architecture : amd64, arm64
+* Application : -
     - Development environment
 
 
@@ -30,7 +30,7 @@ docker run -i -t --rm \
            -e RUN_USER_NAME=<user_name> \
            -e RUN_USER_UID=<user_uid> \
            -e RUN_USER_GID=<user_gid> \
-           forumi0721/ubuntu-dev:[ARCH_TAG]
+           forumi0721/ubuntu-dev:latest
 ```
 
 
